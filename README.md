@@ -14,3 +14,4 @@ Project list:
 What if solver, and 3 python colab worksheets
 
 Link:
+https://ashhhhhhaju.github.io/portfolio-new/
