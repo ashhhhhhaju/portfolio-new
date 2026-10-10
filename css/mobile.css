@@ -1,0 +1,8 @@
+header nav a {
+  display: block;
+  margin: 8px 0;
+}
+
+#projects {
+  grid-template-columns: 1fr;
+}

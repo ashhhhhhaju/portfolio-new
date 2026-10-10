@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | Ashwin Aju</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tablet.css" media="(max-width: 1024px)">
+  <link rel="stylesheet" href="css/mobile.css" media="(max-width: 600px)">
+</head>
+<body>
+
+  <header>
+    <h1>Ashwin Aju</h1>
+    <p>Masters in IT student</p>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" class="active">Contact Me</a>
+    </nav>
+  </header>
+
+  <section id="contact-form">
+    <h2>Contact me</h2>
+    <form>
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Phone number</label>
+      <input type="tel" id="phone" name="phone" pattern="^\d{3}-\d{3}-\d{4}$" placeholder="123-456-7890" required>
+      <label for="comments">Comment</label>
+      <textarea id="comments" name="comments" rows="5" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>ashwin.aju@ontariotechu.net | 2026 Ashwin Aju</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #028090;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+header nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+#welcome {
+  background: linear-gradient(to bottom, #028090, #013a40);
+  color: white;
+  text-align: center;
+}
+
+video {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: block;
+  margin-top: 10px;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: #22d7d7;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card a {
+  color: #013a40;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #013a40;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  color: #22d7d7;
+}
+
+form {
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  margin-top: 4px;
+}
+
+button {
+  background: linear-gradient(135deg, #028090, #22d7d7);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 16px;
+}
